@@ -9,12 +9,8 @@
 	"name": "moss",
 	"targetPath": "bin",
 	"dependencies": {
-		"dyaml": {
-			"path": "external/dyaml",
-		},
-		"tinyendian": {
-			"path": "external/tinyendian",
-		}
+		"dyaml": "~>0.8.2",
+		"tinyendian": "~>0.2.0"
 	},
 	"buildTypes": {
 		"debug": {
