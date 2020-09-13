@@ -84,6 +84,7 @@ public:
                 std.getopt.config.caseSensitive, "version", "Show the program version and exit",
                 &versionFlag, "D|destdir", "Set the system root", &_rootDirectory);
         _options = result.options;
+        _options[2].help = "Show help information";
 
         popArg(0);
 
