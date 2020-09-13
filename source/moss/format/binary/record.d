@@ -32,16 +32,16 @@ import moss.format.binary.endianness;
 enum RecordType : uint8_t
 {
     Unknown = 0,
-    Int8,
-    Uint8,
-    Int16,
-    Uint16,
-    Int32,
-    Uint32,
-    Int64,
-    Uint64,
-    Binary,
-    String
+    Int8 = 1,
+    Uint8 = 2,
+    Int16 = 3,
+    Uint16 = 4,
+    Int32 = 5,
+    Uint32 = 6,
+    Int64 = 7,
+    Uint64 = 8,
+    Binary = 9,
+    String = 10,
 }
 
 /**
