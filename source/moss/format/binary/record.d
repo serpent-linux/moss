@@ -77,7 +77,7 @@ struct Record
     @autoEndian uint16_t length; /** 2 bytes per record length*/
     @autoEndian RecordTag tag; /** 2 bytes for the tag */
     @autoEndian RecordType type; /** 1 byte for the type */
-    ubyte[2] padding;
+    ubyte[3] padding;
 };
 
 static assert(Record.sizeof == 8,
